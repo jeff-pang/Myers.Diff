@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myers.Diff", "Myers.Diff.csproj", "{FD318915-8EF0-4CF4-A7B2-60B196BC5E99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{94C3671F-32F9-4AA4-A4DB-EBF529486301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myers.Diff.Tests", "..\Myers.Diff.Tests\Myers.Diff.Tests.csproj", "{87E66A1C-B655-4299-BB72-28FA2CD626BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD318915-8EF0-4CF4-A7B2-60B196BC5E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD318915-8EF0-4CF4-A7B2-60B196BC5E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD318915-8EF0-4CF4-A7B2-60B196BC5E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD318915-8EF0-4CF4-A7B2-60B196BC5E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E66A1C-B655-4299-BB72-28FA2CD626BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E66A1C-B655-4299-BB72-28FA2CD626BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E66A1C-B655-4299-BB72-28FA2CD626BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E66A1C-B655-4299-BB72-28FA2CD626BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87E66A1C-B655-4299-BB72-28FA2CD626BA} = {94C3671F-32F9-4AA4-A4DB-EBF529486301}
+	EndGlobalSection
+EndGlobal
